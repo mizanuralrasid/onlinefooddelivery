@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(190, 189, 189);
+    height: 100%;
+}
+#regisform{
+    height: 100%;
+    width: 50%;
+    padding: 15px;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px gray;
+}
+h4{
+    text-align: center;
+}
