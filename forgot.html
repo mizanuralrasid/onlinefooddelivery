@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/userlogin.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container" id="regisform">
+        <h4>Recovery Your Password</h4>
+        <form action="foods.html" method="post" name="myform" id="myform" onsubmit=" return validateform()">
+        <div class="mb-3">
+              <!-- username -->
+              Email
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" name="email" placeholder="Email">
+              </div>
+              
+            </div>
+            <div class="mb-3">
+                Mess/PG name 
+                <input type="text" class="form-control" id="mpname" placeholder="mess or pg name">
+              </div>
+             
+            <button type="submit" class="btn btn-secondary px-3" onclick="">Send reset link</button> 
+            <a href="userlogin.html" class="btn btn-primary px-3">login</a>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
