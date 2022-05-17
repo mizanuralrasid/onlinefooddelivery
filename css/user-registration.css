@@ -15,3 +15,34 @@ body{
 h4{
     text-align: center;
 }
+@media screen and (max-width: 1050px){
+    #regisform{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 820px){
+    #regisform{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 660px){
+    #regisform{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px){
+    #regisform{
+        width: 93%;
+    }
+}
+@media screen and (max-width: 375px){
+    #regisform{
+        width: 97%;
+    }
+}
+@media screen and (max-width: 393px){
+    #regisform{
+        width: 97%;
+    }
+}
+
