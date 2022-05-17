@@ -23,7 +23,7 @@ h4{
 }
 @media screen and (max-width: 600px){
     #regisform{
-        width: 50%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 375px){
@@ -33,6 +33,6 @@ h4{
 }
 @media screen and (max-width: 393px){
     #regisform{
-        width: 80%;
+        width: 100%;
     }
 }
